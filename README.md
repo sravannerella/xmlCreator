@@ -3,18 +3,13 @@ This is a csv to XML Item generator file written in Java.
 
 ### HOW TO USE
 - You need an csv file which is separated with `~~`.
-- You need to update the filenames in the code and then compile the code.
-- Once the class file is generated. 
-- Run with the java file.
+- Compile the java code and generate class files. Once done, run the following command:
+`java parser input.csv output.xml tagName`
+
+** Send the absolute file path for the input and output file for less confusion.
 
 
-### Things to do:
-The parser.java file is written in 5 minutes. Hence the filenames are hardcoded.
+### Things to know:
+The parser.java file is written in 5 minutes. So there is a possibilities of issues. If you find any issue create a pull request, I will review the code and push it.
 
-- The code will be updated with the arguments for ease of use.
-- The code will generate based on different tag names. This will be integrated with arguments too.
-
-### GOAL:
-
-Run a java command like this.
-`java parser inputFile.csv output.xml tagName`
+Thank you!
