@@ -10,6 +10,6 @@ This is a csv to XML Item generator file written in Java.
 
 
 ### Things to know:
-The parser.java file is written in 5 minutes. So there is a possibilities of issues. If you find any issue create a pull request, I will review the code and push it.
+The parser.java file is written in 5 minutes. So there is a possibilities of issues. If you find any issue and fixed it, please create a pull request I will review the code and push it.
 
 Thank you!
