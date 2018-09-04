@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
 
 public class parser {
 	
@@ -40,11 +39,11 @@ public class parser {
 				i++;
 				if(first){
 					first = false;
-					headings = line.split("~~");
+					headings = line.split("~");
 					bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<TCImport>\n");
 					System.out.println("Started Writing");
 				} else {
-					String[] result = line.split("~~");
+					String[] result = line.split("~");
 					
 					String itemString = "<"+tag+" ";
 					for(int i1=0;i1<headings.length;i1++){
