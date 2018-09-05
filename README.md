@@ -3,10 +3,11 @@ This is a csv to XML Item generator file written in Java.
 
 ### HOW TO USE (Java version)
 - You need an csv file which is separated with `~`.
-- Compile the java code and generate class files. Once done, run the following command:
-`java parser input.csv output.xml tagName`
+- Compile the java code and generate class files. 
+- Once done, run the following command `java parser input.csv output.xml tagName`
 
 ### HOW TO USE (GROOVY Version)
+- You need an csv file which is separated with `~`.
 - Install groovy on your system
 - Run `groovy parser input.csv output.xml tagName`
 
